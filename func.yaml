@@ -1,0 +1,7 @@
+schema_version: 20180708
+name: fndemo
+version: 0.0.0
+runtime: java
+build_image: fnproject/fn-java-fdk-build:jdk17-1.0.165
+run_image: tanquetav/fdk-java-crac
+cmd: com.example.fn.HelloFunction::handleRequest
